@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5277A3;
+    padding: 1.2rem 7.5rem 0.6rem;
+}
+
+.header .img-wrapper {
+    width: 25%;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+}
+
+.header .wrapper {
+    padding-left: 16px;
+    width: calc(75% - 16px);
+    border-radius: 30px;
+    background-color: #2C4A76;
+}
+
+.header .wrapper input {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    padding: 12px 8px;
+}
+
+.header .wrapper input::placeholder {
+    color: #5277A3;
+    opacity: .8;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
